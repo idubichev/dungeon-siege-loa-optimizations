@@ -1,0 +1,13 @@
+{
+  "complete_loop_comparisons": 14400,
+  "vertices_per_loop": [
+    1,
+    64
+  ],
+  "control_modes": 12,
+  "arbitrary_bits_cases": 3600,
+  "all_output_bits_match": true,
+  "duplicate_indices": true,
+  "MXCSR_and_x87_control_preserved": true,
+  "reference": "Installed unscoped quaternion SSE leaf with its original x87 fallback; identical full indexed loop"
+}

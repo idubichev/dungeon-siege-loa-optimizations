@@ -1,0 +1,19 @@
+{
+  "comparisons": 72000,
+  "exact_output_matches": 72000,
+  "aliases": "matched",
+  "strides": [
+    0,
+    12,
+    16,
+    20
+  ],
+  "counts": [
+    0,
+    1,
+    2,
+    4,
+    16
+  ],
+  "eax": "preserved"
+}

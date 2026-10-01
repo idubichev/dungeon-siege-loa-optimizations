@@ -1,0 +1,68 @@
+{
+  "release": "1.0",
+  "files": {
+    "DSLOA.exe": {
+      "patch": "DSLOA.exe.bps",
+      "original": "4e09ee31bea8f7e25387089ce584a84d96923af667c9e32933e96eb4fd8e9bbe",
+      "patched": "3ff1a56264040d81c6b3e6a44b53301b0f246e0c1f0cdb40f13e7f0ed9e9b4e5",
+      "description": "Dungeon Siege: Legends of Aranna 1.50 executable from the community 'Legends of Aranna fix' (GenesisFR, 2026-03-13 build), on top of the GOG or Steam base game. 20 hooks and 2 byte edits."
+    },
+    "D3DImm.dll": {
+      "patch": "D3DImm.dll.bps",
+      "original": "6f973dc859a026cbb4c45a60f810c16e1b9943532a78303e4cfd1cd5ee3b9daa",
+      "patched": "d4289b0812d14e02b930c49ba6b478424f34c42b2e86496ebf758b10023a6341",
+      "description": "dgVoodoo 2.53, MS build. 4 hooks installed at load time."
+    }
+  },
+  "requires": {
+    "DDraw.dll": "6035b806cd001f6c1ac967d1d0574ed52ed6d354b36b1426c052ac4167ae9c16"
+  },
+  "renderer": {
+    "dgvoodoo": {
+      "version": "2.53",
+      "url": "https://github.com/dege-diosg/dgVoodoo2/releases/download/v2.53/dgVoodoo2_53.zip",
+      "sha256": "bf6beb8448d06a13ebb1c1781f14b48c75defc5239d7a1e1eeea48a35ae91445",
+      "files": {
+        "DDraw.dll": [
+          "MS/DDraw.dll",
+          "6035b806cd001f6c1ac967d1d0574ed52ed6d354b36b1426c052ac4167ae9c16"
+        ],
+        "D3DImm.dll": [
+          "MS/D3DImm.dll",
+          "6f973dc859a026cbb4c45a60f810c16e1b9943532a78303e4cfd1cd5ee3b9daa"
+        ]
+      },
+      "bytes": 743896
+    },
+    "dxvk": {
+      "version": "1.10.3-20230507",
+      "url": "https://github.com/Gcenx/DXVK-macOS/releases/download/v1.10.3-20230507/dxvk-macOS-async-v1.10.3-20230507.tar.gz",
+      "sha256": "f67d99d0a8eeedd7d406b283a3df9f939b5965acb00efcb33d0c6235c195a516",
+      "files": {
+        "d3d11.dll": [
+          "dxvk-macOS-async-v1.10.3-20230507/x32/d3d11.dll",
+          "f79d417f675d00008375eb4ea2318af6fcd0b27971d604d3cf345a0dcfa998a0"
+        ],
+        "d3d10core.dll": [
+          "dxvk-macOS-async-v1.10.3-20230507/x32/d3d10core.dll",
+          "2277187a4e13fc2049fe28cb8dd05b34b48c68031c386c3597ba0e18b0c3d327"
+        ]
+      },
+      "bytes": 7077450
+    }
+  },
+  "runtime": {
+    "template": {
+      "name": "Sikarugir wrapper template 1.0.20",
+      "url": "https://github.com/Sikarugir-App/Template/releases/download/v1.0/Template-1.0.20.tar.xz",
+      "sha256": "68bcaa9e6de4732bcb2eca9700ed12d1d0857b1748d60494911a19e17dd9b962",
+      "bytes": 93724016
+    },
+    "engine": {
+      "name": "Wine 10.0 (Sikarugir build, revision 3)",
+      "url": "https://github.com/Sikarugir-App/Engines/releases/download/v1.0/WS12WineSikarugir10.0_3.tar.xz",
+      "sha256": "c6a6d9ca1a697af5e91858c81e267e87cc90097873feabce603e2e64f42fadde",
+      "bytes": 166273852
+    }
+  }
+}

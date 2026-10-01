@@ -1,0 +1,15 @@
+{
+  "exact_comparisons": 8004,
+  "cache_hits": 4000,
+  "cache_misses": 4000,
+  "guards_checked": [
+    "state-block recording",
+    "GetTransform failure",
+    "24-bit nearest x87",
+    "nonfinite input",
+    "thread owner mismatch"
+  ],
+  "all_input_words_checked": true,
+  "address_reuse_and_collisions_checked": true,
+  "fixed_cache_bytes": 196624
+}

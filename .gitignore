@@ -1,0 +1,11 @@
+*.exe
+*.dll
+*.bin
+*.obj
+*.dssave
+*.dsres
+*.dsmap
+__pycache__/
+venv/
+.venv/
+installer/build/

@@ -1,0 +1,8 @@
+{
+  "comparisons": 36000,
+  "control_modes": 12,
+  "exact_output_bits": true,
+  "fallbacks": 11250,
+  "x87_and_MXCSR_preserved": true,
+  "coverage": "General matrices, finite bounded inputs, arbitrary bits, NaN/infinity, signed zero, subnormals; vector kernel compared with scalar kernel which matched 370186 live original transformations."
+}

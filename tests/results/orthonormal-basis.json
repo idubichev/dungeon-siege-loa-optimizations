@@ -1,0 +1,7 @@
+{
+  "comparisons": 144000,
+  "exact_output_matches": 144000,
+  "aliases": true,
+  "rounding_precision_modes": 8,
+  "zero_vector": true
+}

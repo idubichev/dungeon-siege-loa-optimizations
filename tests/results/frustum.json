@@ -1,0 +1,14 @@
+{
+  "comparisons": 60000,
+  "exact_mask_matches": 60000,
+  "rounding_modes": 4,
+  "unsupported_precision_fallback": true,
+  "ranges": [
+    1,
+    1000,
+    1e-20,
+    1e+20
+  ],
+  "zero_planes": true,
+  "nan_plane": true
+}

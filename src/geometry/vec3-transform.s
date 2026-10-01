@@ -1,0 +1,90 @@
+.text
+.globl _vec3_sse
+_vec3_sse:
+ pushl %ebp
+ movl %esp,%ebp
+ subl $12,%esp
+ pushl %eax
+ pushl %ebx
+ pushl %esi
+ pushl %edi
+ fnstcw -4(%ebp)
+ movzwl -4(%ebp),%eax
+ andl $0x300,%eax
+ cmpl $0x200,%eax
+ jne fallback
+ movzwl -4(%ebp),%eax
+ shll $3,%eax
+ andl $0x6000,%eax
+ stmxcsr -8(%ebp)
+ movl -8(%ebp),%edx
+ andl $0xffff1fbf,%edx
+ orl %eax,%edx
+ movl %edx,-12(%ebp)
+ ldmxcsr -12(%ebp)
+ movl %ecx,%edi
+ movl 8(%ebp),%ebx
+ movl 12(%ebp),%esi
+ movl 16(%ebp),%ecx
+ movl 20(%ebp),%edx
+loop:
+ decl %ecx
+ jl finish
+ cvtss2sd (%esi),%xmm0
+ cvtss2sd 0(%edi),%xmm3
+ mulsd %xmm3,%xmm0
+ cvtss2sd 4(%esi),%xmm4
+ cvtss2sd 4(%edi),%xmm3
+ mulsd %xmm3,%xmm4
+ addsd %xmm0,%xmm4
+ cvtss2sd 8(%esi),%xmm0
+ cvtss2sd 8(%edi),%xmm3
+ mulsd %xmm3,%xmm0
+ addsd %xmm4,%xmm0
+ cvtsd2ss %xmm0,%xmm0
+ cvtss2sd (%esi),%xmm1
+ cvtss2sd 12(%edi),%xmm3
+ mulsd %xmm3,%xmm1
+ cvtss2sd 4(%esi),%xmm4
+ cvtss2sd 16(%edi),%xmm3
+ mulsd %xmm3,%xmm4
+ addsd %xmm1,%xmm4
+ cvtss2sd 8(%esi),%xmm1
+ cvtss2sd 20(%edi),%xmm3
+ mulsd %xmm3,%xmm1
+ addsd %xmm4,%xmm1
+ cvtsd2ss %xmm1,%xmm1
+ cvtss2sd (%esi),%xmm2
+ cvtss2sd 24(%edi),%xmm3
+ mulsd %xmm3,%xmm2
+ cvtss2sd 4(%esi),%xmm4
+ cvtss2sd 28(%edi),%xmm3
+ mulsd %xmm3,%xmm4
+ addsd %xmm2,%xmm4
+ cvtss2sd 8(%esi),%xmm2
+ cvtss2sd 32(%edi),%xmm3
+ mulsd %xmm3,%xmm2
+ addsd %xmm4,%xmm2
+ cvtsd2ss %xmm2,%xmm2
+ movss %xmm1,4(%ebx)
+ movss %xmm0,(%ebx)
+ movss %xmm2,8(%ebx)
+ addl %edx,%esi
+ addl $12,%ebx
+ jmp loop
+finish:
+ ldmxcsr -8(%ebp)
+ popl %edi
+ popl %esi
+ popl %ebx
+ popl %eax
+ leave
+ ret $16
+fallback:
+ popl %edi
+ popl %esi
+ popl %ebx
+ popl %eax
+ leave
+ pushl $0x22334455
+ ret

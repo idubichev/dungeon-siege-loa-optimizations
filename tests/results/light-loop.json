@@ -1,0 +1,10 @@
+{
+  "complete_loop_comparisons": 9000,
+  "vertices_per_loop": [
+    1,
+    64
+  ],
+  "all_color_bits_match": true,
+  "MXCSR_restored": true,
+  "control_modes": 9
+}

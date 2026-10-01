@@ -1,0 +1,7 @@
+{
+  "comparisons": 101760,
+  "exact_output_matches": 101760,
+  "lock_contention": "passed",
+  "cache_hits": 50979,
+  "cache_misses": 50781
+}
