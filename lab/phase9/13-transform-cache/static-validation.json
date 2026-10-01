@@ -1,0 +1,15 @@
+{
+  "existing_exe_hooks_preserved": 18,
+  "new_hooks": 1,
+  "modified_existing_code_addresses": [
+    "0x67907e",
+    "0x67907f",
+    "0x679080",
+    "0x679081",
+    "0x679082"
+  ],
+  "frame_profiler_absent": true,
+  "cursor_fix_preserved": true,
+  "protected_saves_unchanged": 3,
+  "sha256": "9c00538f1bea22d9a70d5806d2025d409e3919c087c6ff94e245084a811e9545"
+}

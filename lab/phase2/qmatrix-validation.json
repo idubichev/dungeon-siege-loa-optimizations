@@ -1,0 +1,12 @@
+{
+  "comparisons": 72000,
+  "exact_output_matches": 72000,
+  "aliases": true,
+  "rounding_precision_modes": 8,
+  "counters": [
+    0,
+    23008,
+    11504,
+    0
+  ]
+}

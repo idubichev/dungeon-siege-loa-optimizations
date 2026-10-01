@@ -1,0 +1,7 @@
+{
+  "comparisons": 80000,
+  "exact_output_matches": 80000,
+  "aliases": true,
+  "PC53_rounding_modes": 4,
+  "fallback_modes": 4
+}

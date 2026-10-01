@@ -1,0 +1,7 @@
+{
+  "comparisons": 90000,
+  "exact_output_matches": 90000,
+  "hits": 42714,
+  "misses": 42714,
+  "lock_contention": "passed"
+}

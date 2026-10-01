@@ -1,0 +1,13 @@
+{
+  "comparisons": 90000,
+  "exact_boolean_and_output_bits": true,
+  "control_modes": 9,
+  "aliases_and_nan_fallback": true,
+  "ranges": [
+    1,
+    1000,
+    1e-20,
+    1e+20
+  ],
+  "MXCSR_restored": true
+}

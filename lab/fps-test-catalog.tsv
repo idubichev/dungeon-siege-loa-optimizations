@@ -1,0 +1,65 @@
+id	moltenvk	runtime	renderer	prefs	resources	description
+00-clean-baseline	-	-	-	-	-	Stable renderer and clean production runtime
+01-async-cursor-off	-	async-cursor-off	-	-	-	Disable asynchronous software cursor
+02-priority-boost	-	-	-	priority-boost-on	-	Enable Dungeon Siege priority boost
+03-simple-render	-	simple	-	-	-	Enable the engine low-end simple renderer
+04-dg254-baseline	-	-	dg254-baseline	-	-	dgVoodoo 2.54 with known-good binary config
+05-dg254-roaming-cpl	-	-	dg254-roaming-cpl	-	-	dgVoodoo 2.54 with preserved second control-panel config
+06-dg255-ti4800	-	-	dg255-ti4800	-	-	dgVoodoo 2.55 GeForce4 Ti 4800 profile
+07-dg255-ti4800-fast	-	-	dg255-ti4800-fast	-	-	dgVoodoo 2.55 Ti 4800 plus fast video memory
+08-dg255-generic	-	-	dg255-baseline	-	-	dgVoodoo 2.55 generic profile
+09-dg255-generic-fast	-	-	dg255-fast	-	-	dgVoodoo 2.55 generic plus fast video memory
+10-dg287-baseline	-	-	dg287-baseline	-	-	dgVoodoo 2.87.3 D3D11 baseline
+11-dg287-fast	-	-	dg287-fast	-	-	dgVoodoo 2.87.3 fast video memory
+12-dg287-batched	-	-	dg287-batched	-	-	dgVoodoo 2.87.3 batched primary updates
+13-dg287-batched-fast	-	-	dg287-batched-fast	-	-	dgVoodoo 2.87.3 batching plus fast memory
+14-dg287-d3d12	-	-	dg287-d3d12	-	-	dgVoodoo 2.87.3 through Wine VKD3D
+15-dg253-dxmt	-	dxmt-quiet	dg253-dxmt	-	-	dgVoodoo 2.53 through DXMT direct Metal
+16-dg255-dxmt	-	dxmt-quiet	dg255-dxmt	-	-	dgVoodoo 2.55 through DXMT direct Metal
+17-dg287-dxmt	-	dxmt-quiet	dg287-dxmt	-	-	dgVoodoo 2.87.3 through DXMT direct Metal
+18-sarek-baseline	-	-	sarek-baseline	-	-	DXVK-Sarek D7VK baseline
+19-sarek-vsync	-	-	sarek-vsync-no-limit	-	-	Sarek forced VSync without internal limiter
+20-sarek-no-dyasync	-	-	sarek-no-dyasync	-	-	Sarek with dyasync disabled
+21-mvk-stock	-	mvk-stock	-	-	-	Bundled stock MoltenVK selector
+22-mvk-stock-no-args	-	mvk-stock-no-args	-	-	-	Stock MoltenVK without Metal argument buffers
+23-mvk-argbuffers-off	-	mvk-argbuffers-off	-	-	-	CodeWeavers MoltenVK with argument buffers off
+24-mvk141-default	mvk141	mvk141-default	-	-	-	MoltenVK 1.4.1 default submission
+25-mvk141-sync	mvk141	mvk141-sync-submit	-	-	-	MoltenVK 1.4.1 synchronous submission
+26-mvk141-async	mvk141	mvk141-async-submit	-	-	-	MoltenVK 1.4.1 asynchronous submission
+27-mvk141-async-onequeue	mvk141	mvk141-async-single-queue	-	-	-	MoltenVK 1.4.1 async single-queue profile
+28-d7vk2-baseline	mvk141	mvk141-default	d7vk2-baseline	-	-	D7VK 2.0 with MoltenVK 1.4.1
+29-d7vk2-vsync	mvk141	mvk141-default	d7vk2-forced-vsync	-	-	D7VK 2.0 forced VSync
+30-buffers-off	-	buffers-off	-	-	-	Disable engine frames buffering capability
+31-noflip-off	-	noflip-off	-	-	-	Allow engine flip presentation
+32-one-buffer	-	one-buffer	-	-	-	Use one back buffer
+33-shadow-target-off	-	shadow-target-off	-	-	-	Disable shadow render-target capability
+34-trilinear-off	-	trilinear-off	-	-	-	Disable trilinear-filter capability
+35-present-min	-	present-min	-	-	-	Combined low-overhead presentation flags
+36-render-min	-	render-min	-	-	-	Combined low-overhead engine rendering flags
+37-dg253-wined3d-vulkan	-	-	dg253-wined3d-vulkan	-	-	dgVoodoo 2.53 through WineD3D Vulkan
+38-dg255-wined3d-vulkan	-	-	dg255-wined3d-vulkan	-	-	dgVoodoo 2.55 through WineD3D Vulkan
+39-dg287-wined3d-vulkan	-	-	dg287-wined3d-vulkan	-	-	dgVoodoo 2.87.3 through WineD3D Vulkan
+40-dxw-baseline	-	-	dxw-baseline	-	-	dxwrapper Dd7to9 through WineD3D
+41-dxw-frameskip	-	-	dxw-frameskip	-	-	dxwrapper automatic redundant-frame skipping
+42-dxw-qpc	-	-	dxw-qpc	-	-	dxwrapper performance-counter uptime fix
+43-dxw-sarek	-	-	dxw-sarek-baseline	-	-	dxwrapper Dd7to9 through Sarek D3D9
+44-dxw-sarek-frameskip	-	-	dxw-sarek-frameskip	-	-	dxwrapper plus Sarek with frame skipping
+45-dxw-sarek-vsync	-	-	dxw-sarek-vsync-no-limit	-	-	dxwrapper plus Sarek VSync without limiter
+46-dxgl-baseline	-	-	dxgl-baseline	-	-	DXGL Direct3D-to-OpenGL baseline
+47-dxgl-vsync	-	-	dxgl-forced-vsync	-	-	DXGL with forced redraw VSync
+48-sync-esync	-	sync-esync	-	-	-	Wine ESYNC only
+49-sync-msync	-	sync-msync	-	-	-	Wine MSYNC only
+50-sync-none	-	sync-none	-	-	-	Wine synchronization extensions disabled
+51-bpp16	-	diagnostic-bpp16	-	-	-	Diagnostic 16-bit game output
+52-no-textures	-	diagnostic-notextures	-	-	-	Diagnostic engine no-texture mode
+53-detail75	-	-	-	detail-75	-	Object detail at 75 percent
+54-detail50	-	-	-	detail-50	-	Object detail at 50 percent
+55-detail25	-	-	-	detail-25	-	Object detail at 25 percent
+56-detail20	-	-	-	detail-20	-	Object detail at engine minimum
+57-resources-minimal	-	-	-	-	minimal	Disable all five optional resource mods
+58-no-fairyfix	-	-	-	-	no-fairyfix	Disable only fairyfix
+59-no-mp-save	-	-	-	-	no-mp-save	Disable only multiplayer-save patch
+60-no-resolution-fix	-	-	-	-	no-resolution-fix	Disable only resolution-fix resource
+61-no-difficulty	-	-	-	-	no-difficulty	Disable only difficulty patch
+62-no-uberui	-	-	-	-	no-uberui	Disable only UberUI
+63-no-sound	-	no-sound	-	-	-	Disable sound subsystem at launch

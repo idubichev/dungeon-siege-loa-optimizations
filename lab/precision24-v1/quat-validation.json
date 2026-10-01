@@ -1,0 +1,42 @@
+[
+  {
+    "control": "0x7f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.15678509999997914
+  },
+  {
+    "control": "0x47f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.15666410000994802
+  },
+  {
+    "control": "0x87f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.1557046000380069
+  },
+  {
+    "control": "0xc7f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.15598420007154346
+  },
+  {
+    "control": "0x27f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.16830849996767938
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "source": "~/Documents/Dungeon Siege 1/experiments/2026-09-06/backup/Dungeon Siege Wine10 Test.app/game/DSLOA.exe",
+  "source_sha256": "4e09ee31bea8f7e25387089ce584a84d96923af667c9e32933e96eb4fd8e9bbe",
+  "candidate": "~/Documents/Dungeon Siege 1/experiments/2026-09-06/DSLOA-sse.exe",
+  "candidate_sha256": "61fb9d17369a878fd125a0ee937137a2ac7b53ebd93b5f968439a8de1c050102",
+  "entry_rva": "0x135f3b",
+  "section_rva": "0x6ad0a0",
+  "code_bytes": 679,
+  "validation": "108,000 cases, including aliases and nine x87 control modes, byte-identical outputs"
+}

@@ -1,0 +1,8 @@
+{
+  "comparisons": 45000,
+  "actual_PE_images_executed": true,
+  "exact_boolean_and_all_buffer_bytes": true,
+  "modes": 9,
+  "cases": "Random rays and triangles, vertical rays, degenerate triangles, input/output aliases",
+  "seconds": 0.8277114999946207
+}

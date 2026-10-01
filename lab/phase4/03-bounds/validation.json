@@ -1,0 +1,9 @@
+{
+  "comparisons": 90000,
+  "all_frame_bytes_match": true,
+  "both_original_blocks": true,
+  "control_modes": 9,
+  "cases": "Random float bit patterns, NaNs, infinities, subnormals, signed zero",
+  "MXCSR_and_x87_control_preserved": true,
+  "seconds": 0.9048718000994995
+}

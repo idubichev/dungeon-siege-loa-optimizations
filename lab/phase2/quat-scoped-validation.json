@@ -1,0 +1,74 @@
+[
+  {
+    "control": "0x7f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.17777089995797724
+  },
+  {
+    "control": "0x47f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.1739536999957636
+  },
+  {
+    "control": "0x87f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.17461490002460778
+  },
+  {
+    "control": "0xc7f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.1729665999300778
+  },
+  {
+    "control": "0x27f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.17405020003207028
+  },
+  {
+    "control": "0x67f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.1741223999997601
+  },
+  {
+    "control": "0xa7f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.1767558999126777
+  },
+  {
+    "control": "0xe7f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.1735666999593377
+  },
+  {
+    "control": "0x37f",
+    "cases": 12000,
+    "byte_mismatches": 0,
+    "worst_abs_difference": 0,
+    "first": null,
+    "seconds": 0.18436049995943904
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "game_window": {
+    "client": [
+      0,
+      0,
+      1512,
+      982
+    ],
+    "desktop": [
+      1512,
+      982
+    ]
+  },
+  "native_window": {
+    "X": 0,
+    "Height": 982,
+    "Y": 0,
+    "Width": 1512
+  },
+  "exe_changed_offsets": [
+    89387,
+    89388
+  ],
+  "saves_unchanged": {
+    "Dungeon Siege LOA/Save/Test (0-04-34).dssave": true,
+    "Dungeon Siege LOA/Save/Test OP.dssave": true,
+    "Dungeon Siege LOA/Save/Test (0-02-54).dssave": true
+  },
+  "object_detail": 100,
+  "fps_cap": 120,
+  "game_resolution": [
+    1920,
+    1080
+  ],
+  "presentation_resolution": [
+    1512,
+    982
+  ],
+  "cursor_helper": "aa219bdbc72ca704f661978c4ad91f3f9211125a48625684fb86105c8e05cd83",
+  "evidence": [
+    "single-cursor-mouse.json",
+    "cursor-outside-game.png",
+    "single-cursor-return.png",
+    "selected-resolution-inventory.png",
+    "final-1920-paused.png"
+  ],
+  "superseded_physical_mouse_check": "SetCursorPos did not prove physical reach; user-confirmed 1280x800 UI supersedes prior 1920x1080 layout.",
+  "final_game_ui": [
+    1280,
+    800
+  ],
+  "physical_mouse_user_confirmed": true
+}

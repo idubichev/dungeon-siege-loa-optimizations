@@ -1,0 +1,7 @@
+{
+  "comparisons": 72000,
+  "all_output_bits_match": true,
+  "control_modes": 9,
+  "alias_layouts": 8,
+  "arbitrary_float_bits": true
+}

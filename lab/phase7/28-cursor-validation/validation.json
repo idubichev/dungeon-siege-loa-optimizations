@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "left_and_right_clicks_absolute": true,
+  "held_pointer_motion": true,
+  "relative_camera_cursor_hidden": true,
+  "pointer_restored_on_camera_release": true,
+  "inventory_and_pause_visually_checked": true,
+  "build": "phase7/22-native-fastpath"
+}

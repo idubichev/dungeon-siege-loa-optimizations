@@ -1,0 +1,7 @@
+{
+  "comparisons": 180000,
+  "x87_modes": 9,
+  "exact_extended_80bit_results": true,
+  "exact_exception_flags": true,
+  "coverage": "Finite and arbitrary binary32 vectors, including NaN/infinity; three pre-existing x87 stack values."
+}

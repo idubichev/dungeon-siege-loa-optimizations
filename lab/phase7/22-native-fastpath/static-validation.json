@@ -1,0 +1,8 @@
+{
+  "candidate_sha256": "3b222ce4f8214a182112ef65db869cfe1132f4b3b4ff80999eaefabeb704c919",
+  "exe_hooks_checked": 17,
+  "stream_sleep_original": true,
+  "frame_profiler_absent": true,
+  "cursor_click_patch_preserved": true,
+  "new_exit_matches_original_epilogue": true
+}

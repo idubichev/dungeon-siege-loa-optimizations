@@ -1,0 +1,93 @@
+{
+  "comparison": "Same running forest scene, original routines versus eight local improvements",
+  "window_client": [
+    800,
+    600
+  ],
+  "sound_enabled": true,
+  "object_detail": 1.0,
+  "shadows": "none",
+  "original": {
+    "name": "23-same-process-original-sound",
+    "window": {
+      "kCGWindowName": "Dungeon Siege",
+      "kCGWindowLayer": 0,
+      "kCGWindowMemoryUsage": 2192,
+      "kCGWindowIsOnscreen": true,
+      "kCGWindowSharingState": 1,
+      "kCGWindowOwnerPID": 70022,
+      "kCGWindowOwnerName": "wine64",
+      "kCGWindowNumber": 6118,
+      "kCGWindowStoreType": 1,
+      "kCGWindowBounds": {
+        "X": 4,
+        "Height": 628,
+        "Y": 38,
+        "Width": 800
+      },
+      "kCGWindowAlpha": 1
+    },
+    "fps_samples": [
+      19.9,
+      18.9,
+      19.2,
+      19.8,
+      18.9
+    ],
+    "mean": 19.34,
+    "min": 18.9,
+    "max": 19.9,
+    "note": "Five readings of the displayed DXVK FPS HUD, two seconds apart; this is not a frametime capture.",
+    "raw_ocr_fps_samples": [
+      18.9,
+      19.8,
+      18.9
+    ],
+    "review": "All five HUD screenshots read visually; raw OCR errors corrected."
+  },
+  "optimized": {
+    "name": "24-same-process-optimized-sound",
+    "window": {
+      "kCGWindowName": "Dungeon Siege",
+      "kCGWindowLayer": 0,
+      "kCGWindowMemoryUsage": 2192,
+      "kCGWindowIsOnscreen": true,
+      "kCGWindowSharingState": 1,
+      "kCGWindowOwnerPID": 70022,
+      "kCGWindowOwnerName": "wine64",
+      "kCGWindowNumber": 6118,
+      "kCGWindowStoreType": 1,
+      "kCGWindowBounds": {
+        "X": 4,
+        "Height": 628,
+        "Y": 38,
+        "Width": 800
+      },
+      "kCGWindowAlpha": 1
+    },
+    "fps_samples": [
+      50.8,
+      49.7,
+      50.2,
+      50.8,
+      49.9
+    ],
+    "mean": 50.28,
+    "min": 49.7,
+    "max": 50.8,
+    "note": "Five readings of the displayed DXVK FPS HUD, two seconds apart; this is not a frametime capture.",
+    "raw_ocr_fps_samples": [
+      156.8,
+      49.7,
+      15.2,
+      156.8,
+      49.9
+    ],
+    "review": "All five HUD screenshots read visually; raw OCR errors corrected."
+  },
+  "target_fps": 90,
+  "target_reached": false,
+  "numerical_comparisons": 748760,
+  "final_cold_launch_screenshot": "27-final-cold-launch-game.png",
+  "speedup": 2.5997931747673215
+}

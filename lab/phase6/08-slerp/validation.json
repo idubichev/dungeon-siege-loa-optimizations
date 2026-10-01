@@ -1,0 +1,7 @@
+{
+  "comparisons": 140000,
+  "max_component_error": 3.5762786865234375e-07,
+  "allowed_error": 3e-06,
+  "exact_fallback_comparisons": 22470,
+  "floating_point_modes_preserved": true
+}

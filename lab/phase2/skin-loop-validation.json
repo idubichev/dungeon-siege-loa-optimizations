@@ -1,0 +1,11 @@
+{
+  "complete_loop_comparisons": 9000,
+  "vertices_per_loop": [
+    1,
+    16
+  ],
+  "normal_interpolation": true,
+  "all_output_bits_match": true,
+  "MXCSR_restored": true,
+  "control_modes": 9
+}

@@ -1,0 +1,6 @@
+{
+  "cases": 50000,
+  "original_branches": 2,
+  "exact_all_buffer_bytes": true,
+  "coverage": "finite values and arbitrary binary32 bounds/positions including NaN, infinity, reversed bounds"
+}
